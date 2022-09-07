@@ -6,6 +6,9 @@ header {
     background-color: black;
     color: white;
 }
+a {
+    color: rgb(98, 237, 28);
+}
 .container {
     width: 80%;
     margin: auto;
@@ -50,6 +53,12 @@ footer p {
     margin-top: 10px;
     padding: 5px;
     width: 100%;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+.form-control input[type='date'] {
+    margin-top: 10px;
+    padding: 5px;
     border: 2px black solid;
     border-radius: 5px;
 }
